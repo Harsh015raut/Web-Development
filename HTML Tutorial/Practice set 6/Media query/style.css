@@ -1,0 +1,11 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-image:url("/Practice\ set\ 5\ website/nature1.avif")
+}
+@media (min-width: 600px) and (max-width :800px) {
+    div{
+        background-image: url("/Website/tiger.avif");
+        background-size: cover;
+    }
+}
